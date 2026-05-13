@@ -1,0 +1,96 @@
+2026-05-06 19:05:15,176 - agents.controller_agent - INFO - Controller Agent starting
+2026-05-06 19:05:15,176 - agents.controller_agent - INFO - Data Agent: Loading and cleaning data
+2026-05-06 19:05:15,176 - agents.data_agent - INFO - Loading data from data/sample_data.csv
+2026-05-06 19:05:15,178 - agents.data_agent - INFO - Loaded 5 rows, 3 columns
+2026-05-06 19:05:15,182 - agents.data_agent - INFO - Filled missing values using mean strategy
+2026-05-06 19:05:15,182 - agents.controller_agent - INFO - Analysis Agent: LLM analysis
+2026-05-06 19:05:15,184 - agents.analysis_agent - INFO - Analyzing data sample (10 rows)
+2026-05-06 19:05:15,211 - llm.llm_client - INFO - Calling LLM (attempt 1/3)
+2026-05-06 19:05:31,799 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:05:31,799 - llm.llm_client - INFO - Retrying in 1s...
+2026-05-06 19:05:32,804 - llm.llm_client - INFO - Calling LLM (attempt 2/3)
+2026-05-06 19:05:49,055 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:05:49,055 - llm.llm_client - INFO - Retrying in 2s...
+2026-05-06 19:05:51,071 - llm.llm_client - INFO - Calling LLM (attempt 3/3)
+2026-05-06 19:06:07,466 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:06:07,466 - agents.controller_agent - ERROR - Analysis failed: LLM analysis failed: LLM call failed after 3 attempts: Request timed out.
+2026-05-06 19:06:35,396 - agents.controller_agent - INFO - Controller Agent starting
+2026-05-06 19:06:35,396 - agents.controller_agent - INFO - Data Agent: Loading and cleaning data
+2026-05-06 19:06:35,396 - agents.data_agent - INFO - Loading data from data/sample_data.csv
+2026-05-06 19:06:35,399 - agents.data_agent - INFO - Loaded 5 rows, 3 columns
+2026-05-06 19:06:35,401 - agents.data_agent - INFO - Filled missing values using mean strategy
+2026-05-06 19:06:35,401 - agents.controller_agent - INFO - Analysis Agent: LLM analysis
+2026-05-06 19:06:35,402 - agents.analysis_agent - INFO - Analyzing data sample (10 rows)
+2026-05-06 19:06:35,441 - llm.llm_client - INFO - Calling LLM (attempt 1/3)
+2026-05-06 19:06:37,029 - llm.llm_client - WARNING - LLM call failed: Connection error.
+2026-05-06 19:06:37,032 - llm.llm_client - INFO - Retrying in 1s...
+2026-05-06 19:06:38,040 - llm.llm_client - INFO - Calling LLM (attempt 2/3)
+2026-05-06 19:06:39,314 - llm.llm_client - WARNING - LLM call failed: Connection error.
+2026-05-06 19:06:39,314 - llm.llm_client - INFO - Retrying in 2s...
+2026-05-06 19:06:41,315 - llm.llm_client - INFO - Calling LLM (attempt 3/3)
+2026-05-06 19:06:42,793 - llm.llm_client - WARNING - LLM call failed: Connection error.
+2026-05-06 19:06:42,793 - agents.controller_agent - ERROR - Analysis failed: LLM analysis failed: LLM call failed after 3 attempts: Connection error.
+2026-05-06 19:07:04,095 - agents.controller_agent - INFO - Controller Agent starting
+2026-05-06 19:07:04,095 - agents.controller_agent - INFO - Data Agent: Loading and cleaning data
+2026-05-06 19:07:04,095 - agents.data_agent - INFO - Loading data from data/sample_data.csv
+2026-05-06 19:07:04,097 - agents.data_agent - INFO - Loaded 5 rows, 3 columns
+2026-05-06 19:07:04,099 - agents.data_agent - INFO - Filled missing values using mean strategy
+2026-05-06 19:07:04,099 - agents.controller_agent - INFO - Analysis Agent: LLM analysis
+2026-05-06 19:07:04,100 - agents.analysis_agent - INFO - Analyzing data sample (10 rows)
+2026-05-06 19:07:04,134 - llm.llm_client - INFO - Calling LLM (attempt 1/3)
+2026-05-06 19:07:05,906 - llm.llm_client - WARNING - LLM call failed: Connection error.
+2026-05-06 19:07:05,906 - llm.llm_client - INFO - Retrying in 1s...
+2026-05-06 19:07:06,917 - llm.llm_client - INFO - Calling LLM (attempt 2/3)
+2026-05-06 19:07:08,266 - llm.llm_client - WARNING - LLM call failed: Connection error.
+2026-05-06 19:07:08,266 - llm.llm_client - INFO - Retrying in 2s...
+2026-05-06 19:07:10,270 - llm.llm_client - INFO - Calling LLM (attempt 3/3)
+2026-05-06 19:07:11,636 - llm.llm_client - WARNING - LLM call failed: Connection error.
+2026-05-06 19:07:11,636 - agents.controller_agent - ERROR - Analysis failed: LLM analysis failed: LLM call failed after 3 attempts: Connection error.
+2026-05-06 19:14:52,424 - agents.controller_agent - INFO - Controller Agent starting
+2026-05-06 19:14:52,424 - agents.controller_agent - INFO - Data Agent: Loading and cleaning data
+2026-05-06 19:14:52,425 - agents.data_agent - INFO - Loading data from data/sample_data.csv
+2026-05-06 19:14:52,427 - agents.data_agent - INFO - Loaded 5 rows, 3 columns
+2026-05-06 19:14:52,428 - agents.data_agent - INFO - Filled missing values using mean strategy
+2026-05-06 19:14:52,428 - agents.controller_agent - INFO - Analysis Agent: LLM analysis
+2026-05-06 19:14:52,430 - agents.analysis_agent - INFO - Analyzing data sample (10 rows)
+2026-05-06 19:14:52,454 - llm.llm_client - INFO - Calling LLM (attempt 1/3)
+2026-05-06 19:15:09,165 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:15:09,165 - llm.llm_client - INFO - Retrying in 1s...
+2026-05-06 19:15:10,172 - llm.llm_client - INFO - Calling LLM (attempt 2/3)
+2026-05-06 19:15:26,456 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:15:26,456 - llm.llm_client - INFO - Retrying in 2s...
+2026-05-06 19:15:28,467 - llm.llm_client - INFO - Calling LLM (attempt 3/3)
+2026-05-06 19:15:44,725 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:15:44,725 - agents.controller_agent - ERROR - Analysis failed: LLM analysis failed: LLM call failed after 3 attempts: Request timed out.
+2026-05-06 19:15:56,991 - agents.controller_agent - INFO - Controller Agent starting
+2026-05-06 19:15:56,992 - agents.controller_agent - INFO - Data Agent: Loading and cleaning data
+2026-05-06 19:15:56,992 - agents.data_agent - INFO - Loading data from data/sample_data.csv
+2026-05-06 19:15:56,993 - agents.data_agent - INFO - Loaded 5 rows, 3 columns
+2026-05-06 19:15:56,995 - agents.data_agent - INFO - Filled missing values using mean strategy
+2026-05-06 19:15:56,995 - agents.controller_agent - INFO - Analysis Agent: LLM analysis
+2026-05-06 19:15:56,997 - agents.analysis_agent - INFO - Analyzing data sample (10 rows)
+2026-05-06 19:15:57,020 - llm.llm_client - INFO - Calling LLM (attempt 1/3)
+2026-05-06 19:16:13,600 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:16:13,600 - llm.llm_client - INFO - Retrying in 1s...
+2026-05-06 19:16:14,609 - llm.llm_client - INFO - Calling LLM (attempt 2/3)
+2026-05-06 19:16:31,033 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:16:31,033 - llm.llm_client - INFO - Retrying in 2s...
+2026-05-06 19:16:33,044 - llm.llm_client - INFO - Calling LLM (attempt 3/3)
+2026-05-06 19:16:49,433 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:16:49,433 - agents.controller_agent - ERROR - Analysis failed: LLM analysis failed: LLM call failed after 3 attempts: Request timed out.
+2026-05-06 19:17:54,165 - agents.controller_agent - INFO - Controller Agent starting
+2026-05-06 19:17:54,165 - agents.controller_agent - INFO - Data Agent: Loading and cleaning data
+2026-05-06 19:17:54,165 - agents.data_agent - INFO - Loading data from data/sample_data.csv
+2026-05-06 19:17:54,167 - agents.data_agent - INFO - Loaded 5 rows, 3 columns
+2026-05-06 19:17:54,169 - agents.data_agent - INFO - Filled missing values using mean strategy
+2026-05-06 19:17:54,169 - agents.controller_agent - INFO - Analysis Agent: LLM analysis
+2026-05-06 19:17:54,170 - agents.analysis_agent - INFO - Analyzing data sample (10 rows)
+2026-05-06 19:17:54,195 - llm.llm_client - INFO - Calling LLM (attempt 1/3)
+2026-05-06 19:18:10,793 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:18:10,793 - llm.llm_client - INFO - Retrying in 1s...
+2026-05-06 19:18:11,800 - llm.llm_client - INFO - Calling LLM (attempt 2/3)
+2026-05-06 19:18:28,122 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:18:28,122 - llm.llm_client - INFO - Retrying in 2s...
+2026-05-06 19:18:30,129 - llm.llm_client - INFO - Calling LLM (attempt 3/3)
+2026-05-06 19:18:46,360 - llm.llm_client - WARNING - LLM call failed: Request timed out.
+2026-05-06 19:18:46,360 - agents.controller_agent - ERROR - Analysis failed: LLM analysis failed: LLM call failed after 3 attempts: Request timed out.
